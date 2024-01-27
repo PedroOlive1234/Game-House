@@ -1,0 +1,60 @@
+body {
+    font-family: "Bakbak One", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333; /* Texto mais escuro */
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+#header {
+    background-color: black; /* Cor de fundo do cabeçalho */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+.imagem{
+    height: 250px;
+}
+
+#players-list {
+    background-color: black;
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+}
+
+.player-link {
+    border: 2px solid #F58634;
+    text-decoration: none;
+    color: #ffffff; /* Cor do texto */
+    background-color: #2B3669 ; /* Cor de fundo */
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.player-link:hover {
+    background-color: #F58634; /* Cor de fundo ao passar o mouse */
+}
+
+#player-info {
+    background: linear-gradient(to bottom, #2B3669  0%, #0d163d 80%);
+    background-color: #2B3669; /* Cor de fundo da área de informações do jogador */
+    border: 2px solid #F58634;
+    color:#ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-top: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#player-info h2 {
+    margin-top: 0;
+}
