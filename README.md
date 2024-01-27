@@ -1,2 +1,2 @@
 # Game-House
-# cria por Pedro e Daniel.
+# criado por Pedro e Daniel.
